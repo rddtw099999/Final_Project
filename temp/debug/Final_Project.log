@@ -1,0 +1,19 @@
+﻿已經開始建置於 2018/1/1 下午 10:05:36。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\MinKai\Desktop\topic\4\Final_Project\Final_Project\Final_Project.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\temp\debug\\" /Fd"..\..\temp\debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\main.cpp
+         main.cpp
+     1>c:\users\minkai\desktop\topic\4\source\main.cpp(34): warning C4102: 'exit' : 未參考的標籤
+     1>c:\users\minkai\desktop\topic\4\source\main.cpp(40): warning C4244: '引數' : 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+     1>c:\users\minkai\desktop\topic\4\source\main.cpp(87): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 請參閱 'getch' 的宣告
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\temp\debug\Final_Project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\temp\debug\Final_Project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\temp\debug\Final_Project.lib" /MACHINE:X86 ..\..\temp\debug\main.obj
+         Final_Project.vcxproj -> C:\Users\MinKai\Desktop\topic\4\Final_Project\Final_Project\..\..\temp\debug\Final_Project.exe
+     1>專案 "C:\Users\MinKai\Desktop\topic\4\Final_Project\Final_Project\Final_Project.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.42
